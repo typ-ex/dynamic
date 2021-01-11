@@ -18,3 +18,5 @@
         # Required for idempotence/only one droplet creation.
         unique_name: yes
       register: do
+    
+    - debug: var=do
